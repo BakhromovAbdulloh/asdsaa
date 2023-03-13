@@ -77,6 +77,7 @@ export default {
 .work {
   max-width: 1284px;
   margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .work__title {
@@ -101,7 +102,6 @@ export default {
   display: flex;
   align-items: center;
   list-style: none;
-  padding: 0 15px 0 15px;
   max-width: 844px;
   margin: 0;
   flex-wrap: wrap;

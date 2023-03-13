@@ -30,7 +30,6 @@
         .work__item-list{
             margin: 0 auto;
             margin: 0 0 15px 0;
-            padding: 0 15px 0 15px;
         }
 
         .work__item-list-img{
