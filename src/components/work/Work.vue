@@ -158,15 +158,32 @@ export default {
   .work__title {
     text-align: center;
   }
+}
 
-  @media screen and (max-width: 810px) {
-    .work__wrapper-nav{
-
+  @media screen and (max-width: 845px) {
+    .work__nav-item-list:nth-child(5){
+      margin-top: 20px;
     }
-
-  }
-  @media screen and (max-width: 414px) {
     
   }
-}
+    @media screen and (max-width: 705px) {
+    .work__nav-item-list:nth-child(4){
+      margin-top: 20px;
+    }
+
+    .work__nav-item-list:nth-child(5){
+      margin-top: 20px;
+  }
+
+  }
+
+  @media screen  and (max-width: 527px){
+    .work__nav-item-list:nth-child(4){
+      margin-top: 20px;
+    }
+    .work__nav-item-list:nth-child(3){
+      margin-top: 20px;
+    }
+    }
+
 </style>

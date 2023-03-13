@@ -41,14 +41,14 @@
     
     @media screen  and (max-width: 621px){
         .work__item-list-img{
-           width: 250px;
+           width: 240px;
            height: 160px;
         }
     }
 
     @media screen  and (max-width: 507px){
         .work__item-list-img{
-           width: 180px;
+           width: 170px;
            height: 120px;
         }
     }
