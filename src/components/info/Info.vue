@@ -89,7 +89,7 @@ export default {
   font-size: 48px;
   line-height: 59px;
   color: #ffffff;
-  max-width: 500px;
+  max-width: 628px;
   margin: 0 0 38px 0;
 }
 .info__button {

@@ -1,4 +1,5 @@
 <template>
+  <h1 class="visually-hidden">Производство коробок</h1>
   <header class="header">
     <div class="header__wrapper">
       <img class="header__logo" src="@/assets/img/logo-Super.svg" alt="" />
@@ -40,6 +41,15 @@ export default {
 };
 </script>
 <style>
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 .header {
   max-width: 1284px;
   margin: 0 auto;
