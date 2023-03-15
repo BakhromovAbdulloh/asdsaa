@@ -1,10 +1,10 @@
 <template>
-    <div class="advantages">
+    <section id="advantages" class="advantages">
         <h2 class="advantages__title">Наши преимущества</h2>
         <ul  class="advantages__list">
            <AdvantagesItem v-for="movie in movies" v-bind:movie="movie"/>
         </ul>
-    </div>
+    </section>
 </template>
 <script>
 

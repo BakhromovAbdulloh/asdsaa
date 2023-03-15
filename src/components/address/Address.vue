@@ -1,5 +1,5 @@
 <template >
-    <div class="address">
+    <section id="address" class="address">
         <h2 class="address__title">Адрес отдела продаж</h2>
         <div class="address__wrapper-info">
             <p class="address__location">160111, Республика  Узбекистан, 
@@ -7,7 +7,7 @@
             <p class="address__number">+9 (890) 123 34 56 </p>
         </div>
         <iframe class="address__karta"  src="https://yandex.ru/map-widget/v1/?um=constructor%3A863dc85f0740ddf6166f7500ebb633849c76c81fe31924c63d2184176c334d54&amp;source=constructor"  frameborder="0"></iframe>  
-        </div>
+        </section>
 </template>
 <script>
 export default {

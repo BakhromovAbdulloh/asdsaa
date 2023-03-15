@@ -1,17 +1,13 @@
 <template>
-    <div class="container">
-        
-    </div>
+  <div class="container"></div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style>
-    .container{
-        max-width: 1284px;
-        margin: 0 auto;
-    }
+.container {
+  max-width: 1284px;
+  margin: 0 auto;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="work">
+  <section id="work" class="work">
     <h2 class="work__title">Наши работы</h2>
 
     <div class="work__wrapper-nav">
@@ -16,13 +16,13 @@
         </ol>
       </nav>
     </div>
-    
+
     <div class="work__wrapper">
       <ul class="work__item">
         <WorkImg v-for="option in filteredCategory" :option="option" />
       </ul>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 import WorkImg from "../work-img/Work-img.vue";
@@ -58,8 +58,10 @@ export default {
   },
   computed: {
     filteredCategory() {
-      return this.options.filter(
-        (option) => this.activeCategory === "Все" ? true : option.category === this.activeCategory
+      return this.options.filter((option) =>
+        this.activeCategory === "Все"
+          ? true
+          : option.category === this.activeCategory
       );
     },
   },
@@ -76,7 +78,7 @@ export default {
 <style>
 .work {
   max-width: 1284px;
-  margin: 0 auto;
+  margin: 102px auto 0 auto;
   padding: 0 15px 0 15px;
 }
 
@@ -85,14 +87,14 @@ export default {
   font-size: 48px;
   line-height: 64px;
   color: #333333;
-  margin: 122px 0 71px 0;
+  margin: 0 0 71px 0;
 }
 
-.work__nav{
-    margin: 0 auto;
-  }
+.work__nav {
+  margin: 0 auto;
+}
 
-.work__wrapper-nav{
+.work__wrapper-nav {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -114,14 +116,13 @@ export default {
   margin: 0;
 }
 
-
 .work__nav-item-list {
   color: #8c8c8c;
   cursor: pointer;
   margin: 0 36px 0 0;
 }
 
-.work__nav-item-list:nth-child(5){
+.work__nav-item-list:nth-child(5) {
   margin-right: 0;
 }
 
@@ -160,30 +161,27 @@ export default {
   }
 }
 
-  @media screen and (max-width: 845px) {
-    .work__nav-item-list:nth-child(5){
-      margin-top: 20px;
-    }
-    
+@media screen and (max-width: 845px) {
+  .work__nav-item-list:nth-child(5) {
+    margin-top: 20px;
   }
-    @media screen and (max-width: 705px) {
-    .work__nav-item-list:nth-child(4){
-      margin-top: 20px;
-    }
-
-    .work__nav-item-list:nth-child(5){
-      margin-top: 20px;
+}
+@media screen and (max-width: 705px) {
+  .work__nav-item-list:nth-child(4) {
+    margin-top: 20px;
   }
 
+  .work__nav-item-list:nth-child(5) {
+    margin-top: 20px;
   }
+}
 
-  @media screen  and (max-width: 527px){
-    .work__nav-item-list:nth-child(4){
-      margin-top: 20px;
-    }
-    .work__nav-item-list:nth-child(3){
-      margin-top: 20px;
-    }
-    }
-
+@media screen and (max-width: 527px) {
+  .work__nav-item-list:nth-child(4) {
+    margin-top: 20px;
+  }
+  .work__nav-item-list:nth-child(3) {
+    margin-top: 20px;
+  }
+}
 </style>

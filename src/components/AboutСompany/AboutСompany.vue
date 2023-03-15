@@ -1,5 +1,5 @@
 <template>
-    <div class="aboutСompany">
+    <section id="aboutСompany" class="aboutСompany">
         <div class="aboutСompany__wrapper">
 
             <div class="aboutСompany__wrapper-img">
@@ -14,7 +14,7 @@
             <h2 class="aboutСompany__title">О компании</h2>
             <p class="aboutСompany__text">Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности играет определяющее значение для форм воздействия. Являясь всего лишь частью общей картины, интерактивные прототипы формируют глобальную экономическую сеть и при этом - подвергнуты целой серии независимых исследований. </p>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 export default {
