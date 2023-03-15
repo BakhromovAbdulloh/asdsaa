@@ -26,7 +26,6 @@ import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 import Info from "../info/Info.vue";
 import Header from "../header/header.vue";
-import Container from "../container/Container.vue";
 
 export default {
   name: "App",
@@ -37,7 +36,6 @@ export default {
     Pagination,
     Navigation,
     Info,
-    Container,
   },
 };
 </script>
