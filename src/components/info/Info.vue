@@ -1,5 +1,5 @@
 <template>
-  <div class="info">
+  <div id="info" class="info">
     <div class="info__wrapper">
       <div class="info__text-wrapper">
         <p class="info__text">{{ name }}</p>
@@ -109,7 +109,7 @@ export default {
 .info__form {
   position: absolute;
   top: 100px;
-  right: 80px;
+  right: 15px;
   background: linear-gradient(92.54deg, #232526 10.17%, #414345 99.75%);
   border: 1px solid #414042;
   border-radius: 15px;

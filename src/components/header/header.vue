@@ -53,7 +53,7 @@ export default {
   justify-content: space-between;
   max-width: 1284px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .header__burger {
   display: none;
