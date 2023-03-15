@@ -230,4 +230,10 @@ export default {};
     margin-bottom: 33px;
   }
 }
+
+@media screen and (max-width: 419px) {
+  .footer__nav-list-item {
+    margin: 0 15px 0 0;
+  }
+}
 </style>
